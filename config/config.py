@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀʟɪsʜᴀ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "5301059277").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,16 +36,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousR1025/AnonXMusic",
+    "https://github.com/CandyMusic/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_CHANNEL", "https://t.me/Pubglovers_Shayri_lovers")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/AlishaSupport")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
