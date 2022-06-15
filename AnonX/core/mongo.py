@@ -6,12 +6,12 @@ import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://anonxmusic:anonxmusic@anonx.9v4i8.mongodb.net/?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb+srv://private:Asad_Ali7818@cluster0.rdghb.mongodb.net/private?retryWrites=true&w=majority"
 
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Your bot will work on @anonymous_was_bot mongo database..."
+        "Your bot will work on @VeNom_HaI_HuM mongo database..."
     )
     temp_client = Client(
         "AnonX",
