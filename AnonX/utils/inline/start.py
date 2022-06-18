@@ -38,24 +38,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ 🥺",
+                text="🥺 ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙᴜ 🥺",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="🗂 ʜᴇʟᴩ", callback_data="settings_back_helper"
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
+            InlineKeyboardButton(text="⭐ ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="🌸 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://t.me/Shayri_Music_Lovers"
+                    text="✨ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://t.me/Shayri_Music_Lovers"
                 )
         ],
      ]
