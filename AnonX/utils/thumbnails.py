@@ -131,8 +131,8 @@ async def gen_thumb(videoid):
 
             # title
             title1 = truncate(title)
-            image4.text((670, 300), text=title1[0], fill="white", stroke_width=1, stroke_fill="pink",font = font3, align ="left") 
-            image4.text((670, 350), text=title1[1], fill="white", stroke_width=1, stroke_fill="pink", font = font3, align ="left") 
+            image4.text((670, 300), text=title1[0], fill="white", stroke_width=1, stroke_fill="yellow",font = font3, align ="left") 
+            image4.text((670, 350), text=title1[1], fill="white", stroke_width=1, stroke_fill="yellow", font = font3, align ="left") 
 
             # description
             views = f"Views : {views}"
