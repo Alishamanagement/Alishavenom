@@ -63,7 +63,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="• σɯɳҽɾ", url=f"https://t.me/Venom_Hai_Hum"
+                text="• σɯɳҽɾ", url=f"https://t.me/Venom_Ha1N_Hum"
             )
         ],
         [
